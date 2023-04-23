@@ -14,8 +14,11 @@ public class WebViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
 
+        //ищет по id из разметки xml объект webview
         WebView webView = findViewById(R.id.webView);
+        //и загружаем ссылку на гитхаб
         webView.loadUrl("https://github.com/CoolPotatoStas");
+        //для правдивости выписываем ссылку в консоль
         System.out.println(webView.getOriginalUrl());
     }
 }
