@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".activities.DatabaseActivity">
+
+    <Button
+        android:id="@+id/buttonGenerator"
+        style="@android:style/Widget.Button"
+        android:layout_width="157dp"
+        android:layout_height="67dp"
+        android:layout_x="46dp"
+        android:layout_y="55dp"
+        android:onClick="createUser"
+        android:text="Сгенерировать"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewDataFromDB"
+        android:layout_width="318dp"
+        android:layout_height="558dp"
+        android:layout_x="38dp"
+        android:layout_y="148dp"
+        android:text="Тут появятся данные..." />
+</AbsoluteLayout>

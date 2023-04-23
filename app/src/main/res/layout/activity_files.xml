@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".activities.FilesActivity">
+
+    <EditText
+        android:id="@+id/saving"
+        android:layout_width="333dp"
+        android:layout_height="143dp"
+        android:layout_weight="4"
+        android:layout_x="33dp"
+        android:layout_y="35dp"
+        android:background="#D0DDFF"
+        android:gravity="start" />
+
+    <Button
+        style="@android:style/Widget.Button"
+        android:layout_width="101dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:layout_x="261dp"
+        android:layout_y="190dp"
+        android:onClick="saveText"
+        android:text="Coxpaнить"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/open_text"
+        android:layout_width="333dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_weight="4"
+        android:layout_x="33dp"
+        android:layout_y="366dp"
+        android:background="#ACA7FF"
+        android:gravity="start" />
+
+    <Button
+        style="@android:style/Widget.Button"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:layout_x="222dp"
+        android:layout_y="553dp"
+        android:onClick="openText"
+        android:text="Oтобразить"
+        android:textSize="16sp" />
+
+</AbsoluteLayout>
